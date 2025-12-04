@@ -17,7 +17,12 @@ dependencies = [
 ]
 
 [tool.pytest.ini_options]
-addopts = "--base-url https://coffee-cart.com numprocess=auto"
+addopts = """
+    --base-url https://coffee-cart.com
+    -n auto
+    --headed --browser=chromium
+    --slowmo=1000
+    """
 testpaths = [
     "tests"
 ]
