@@ -1,0 +1,53 @@
+2025-12-29 21:27:04,818 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2025-12-29 21:27:04,840 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2025-12-29 21:27:05,394 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2025-12-29 21:31:49,077 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 18:52:00,414 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 18:52:00,981 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 18:52:01,547 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 18:52:02,131 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 18:52:02,693 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:34,178 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:34,718 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:35,268 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:35,800 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:36,333 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:55,922 - https://coffee-cart.app/ error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2026-01-06 19:44:55,922 - https://coffee-cart.app/ error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2026-01-06 19:44:57,811 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:57,811 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:57,811 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:58,355 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:58,355 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:58,355 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:58,908 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:58,908 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:58,908 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:59,454 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:59,454 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:59,454 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:59,987 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:59,987 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:44:59,987 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:52:02,942 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:52:03,486 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:52:04,036 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:52:04,583 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:52:05,117 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:53:52,466 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:53:52,994 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:53:53,527 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:53:54,059 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-06 19:53:54,592 - https://coffee-cart.app/?breakable=1 error: Some additional workflow is broken.
+2026-01-07 19:07:58,931 - Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Channel.send() done, defined at C:\Users\Admin\Documents\Python\Project_InfoCourse\.venv\Lib\site-packages\playwright\_impl\_connection.py:61> exception=TargetClosedError('Channel.send: Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\Python\Project_InfoCourse\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Admin\Documents\Python\Project_InfoCourse\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Channel.send: Target page, context or browser has been closed
