@@ -36,7 +36,7 @@ jobs:
 
       - name: Run tests
         run: |
-          poetry run python -m pytest --base-url=$BASE_URL --maxfail=$MAX_FAIL --numprocesses $PROCESSES -- browser firefox
+          poetry run python -m pytest --base-url=$BASE_URL --maxfail=$MAX_FAIL --numprocesses $PROCESSES --browser firefox
         env:
           BASE_URL: 'https://coffee-cart.app/'
           MAX_FAIL: 5
