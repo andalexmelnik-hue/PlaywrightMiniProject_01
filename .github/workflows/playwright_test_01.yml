@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ main, master ]
   # manual trigger
-  # workflow_dispatch:
+  workflow_dispatch:
   # trigger from another repo
   repository_dispatch:
     types: [ on-demand-test ]
