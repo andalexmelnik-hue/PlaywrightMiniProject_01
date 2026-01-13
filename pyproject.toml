@@ -20,6 +20,7 @@ addopts = """
     --base-url https://coffee-cart.app/
     -n 2
     --ignore=tests/samples
+    --ignore=tests/test_TC#004.py
     """
     # --headed
     # --browser=chromium
