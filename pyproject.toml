@@ -19,11 +19,13 @@ python-dotenv=">=1.0.0"
 addopts = """
     --base-url https://coffee-cart.app/
     -n 2
-    --headed
-    --browser=chromium
-    --slowmo=500
     --ignore=tests/samples
     """
+    # --headed
+    # --browser=chromium
+    # --slowmo=500
+     
+
 testpaths = [
     "tests"
 ]
