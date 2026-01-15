@@ -10,6 +10,7 @@ coffee_data = [
     ("Americano", "$7.00")
 ]
 
+@pytest.mark.smoke
 @pytest.mark.parametrize("coffee_name, expected_price", coffee_data)
 # Add Espresso to the cart from the menu and check price'
 def test_add_one_coffee(menu: Menu, coffee_name, expected_price):   
@@ -23,6 +24,7 @@ modified_coffe_names = [(coffee_data[i][0], coffee_data[j][0],
                         for i in range(len(coffee_data)) 
                         for j in range(i + 1, len(coffee_data))]
 
+@pytest.mark.smoke
 @pytest.mark.parametrize("coffee1, coffee2, price1, price2", 
                          modified_coffe_names)
 def test_add_two_coffees(menu: Menu, coffee1, coffee2, price1, price2):
