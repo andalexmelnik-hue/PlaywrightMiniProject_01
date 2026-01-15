@@ -1,4 +1,4 @@
-name: regression-chrome
+name: smoke
 on:
   push:
     branches: [ main, master ]
