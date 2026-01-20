@@ -68,21 +68,9 @@ jobs:
           publish_dir: allure-report
           destination_dir: allure/${{ github.ref_name }}
 
-      - name: Comment PR with Allure Report Link
-        #if: always() && github.event_name == 'pull_request'
-        uses: actions/github-script@v7
+       # 5. Post summary to PR
+      - name: Run Allure Action
+        uses: allure-framework/allure-action@v7
         with:
-          script: |
-            const fs = require('fs');
-            const comment = `## Allure Report
-            📊 [View Allure Report](https://github.com/${{ github.repository }}/deployments/activity_log?environment=github-pages)
-            
-            Branch: \`${{ github.ref_name }}\`
-            Commit: \`${{ github.sha }}\``;
-            
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: comment
-            });
+          report-directory: "./allure-report"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
