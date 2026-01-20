@@ -1,0 +1,1 @@
+ERROR    root:base.py:22 https://coffee-cart.app/ error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
