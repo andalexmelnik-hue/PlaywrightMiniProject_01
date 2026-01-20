@@ -3,7 +3,7 @@ from page_objects.menu import Menu
 import pytest
 
 coffee_data = [
-    ("Espresso", "$10.00"),
+    ("Espresso", "$110.00"),
     ("Cappuccino", "$19.00"),
     ("Cafe Latte", "$16.00"),
     ("Mocha", "$8.00"),
