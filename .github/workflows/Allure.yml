@@ -44,7 +44,7 @@ jobs:
           poetry run python -m pytest --base-url=$BASE_URL --maxfail=$MAX_FAIL --numprocesses $PROCESSES --alluredir=allure-results
         env:
           BASE_URL: 'https://coffee-cart.app/'
-          MAX_FAIL: 5
+          MAX_FAIL: 20
           PROCESSES: 'auto'
         continue-on-error: true 
 
