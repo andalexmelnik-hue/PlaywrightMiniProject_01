@@ -12,5 +12,4 @@ def test_api_negative(menu):
     api_context = menu.page.context.request
     response = api_context.post("/list.json", data=data)
     expect(response).not_to_be_ok() # expecting failure due to invalid data 
-    
-#test comment
+# no comments!
